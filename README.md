@@ -15,6 +15,7 @@ Add Trojan-go support
 Add vless share link import  
 Optimize update return value  
 V2ray_Plugin is off by default  
+Improve Trojan-Go support  
 
 ## Fixes
 Fix the issue of starting twice after apply in the server node list  
