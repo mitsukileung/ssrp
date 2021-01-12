@@ -16,6 +16,8 @@ Add vless share link import
 Optimize update return value  
 V2ray_Plugin is off by default  
 Improve Trojan-Go support  
+Add port 9418 for cloning repositories using git://protocol  
+Modify 'Apply' and 'Delete All Subscribe Severs' execution method
 
 ## Fixes
 Fix the issue of starting twice after apply in the server node list  
@@ -23,3 +25,5 @@ Fix the problem that dnsmasq fails to start when the access control list contain
 Replace expired gfwlist update URLs  
 Fix shadowsocks startup bug  
 Fix process daemon bug  
+Fix vmess URL import  
+Fix the subscription update failure caused by manually adding invalid nodes  
