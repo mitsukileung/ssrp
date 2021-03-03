@@ -1,4 +1,4 @@
-name: 同步 Mattraks 仓库 02
+name: 同步 Mattraks 仓库
 on:
   schedule:
     - cron: '*/15 * * * *'
