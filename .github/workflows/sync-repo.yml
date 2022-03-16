@@ -1,4 +1,4 @@
-name: 同步 Mattraks 仓库
+name: 同步 fw876 仓库
 on:
   schedule:
     - cron: '*/15 * * * *'
@@ -20,7 +20,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync  Mattraks helloworld
+      - name: sync fw876 helloworld
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
