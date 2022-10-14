@@ -21,7 +21,7 @@ jobs:
           persist-credentials: false
 
       - name: sync fw876 helloworld
-        uses: repo-sync/github-sync@v3
+        uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
           source_repo: "https://github.com/fw876/helloworld.git"
